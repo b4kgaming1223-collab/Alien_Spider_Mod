@@ -99,7 +99,6 @@ public class AlienSpiderMod {
             partdefinition.addOrReplaceChild("body0", CubeListBuilder.create().texOffs(0, 0).addBox(-3.0F, -3.0F, -3.0F, 6.0F, 6.0F, 6.0F, new CubeDeformation(0.0F)), net.minecraft.client.model.geom.builders.PartPose.offset(0.0F, 15.0F, 0.0F));
             partdefinition.addOrReplaceChild("body1", CubeListBuilder.create().texOffs(0, 12).addBox(-5.0F, -4.0F, -6.0F, 10.0F, 8.0F, 12.0F, new CubeDeformation(0.0F)), net.minecraft.client.model.geom.builders.PartPose.offset(0.0F, 15.0F, 9.0F));
             
-            // Legs mappings from CustomModel.java
             partdefinition.addOrReplaceChild("leg0", CubeListBuilder.create().texOffs(18, 0).addBox(-15.0F, -1.0F, -1.0F, 16.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), net.minecraft.client.model.geom.builders.PartPose.offsetAndRotation(-4.0F, 15.0F, 2.0F, 0.0F, 0.7854F, -0.7854F));
             partdefinition.addOrReplaceChild("leg1", CubeListBuilder.create().texOffs(18, 0).addBox(-1.0F, -1.0F, -1.0F, 16.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), net.minecraft.client.model.geom.builders.PartPose.offsetAndRotation(4.0F, 15.0F, 2.0F, 0.0F, -0.7854F, 0.7854F));
             partdefinition.addOrReplaceChild("leg2", CubeListBuilder.create().texOffs(18, 0).addBox(-15.0F, -1.0F, -1.0F, 16.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)), net.minecraft.client.model.geom.builders.PartPose.offsetAndRotation(-4.0F, 15.0F, 1.0F, 0.0F, 0.2618F, -0.6109F));
@@ -124,7 +123,7 @@ public class AlienSpiderMod {
             leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
             leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
             leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-            leg4.render(poseStack, consumer, packedLight, packedOverlay, red, green, blue, alpha);
+            leg4.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
             leg5.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
             leg6.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
             leg7.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
