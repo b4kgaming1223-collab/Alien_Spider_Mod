@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="alienspidermod"
+version="1.0.0"
+displayName="Alien Spider Mod"
+authors="B4KGaming"
+description='''
+Adds a custom Alien Spider to Minecraft 1.20.1!
+'''
+
+[[dependencies.alienspidermod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.alienspidermod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
