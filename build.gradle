@@ -8,9 +8,7 @@ buildscript {
     }
 }
 
-plugins {
-    id 'net.minecraftforge.gradle' version '5.1.+'
-}
+apply plugin: 'net.minecraftforge.gradle'
 
 version = '1.0.0'
 group = 'com.b4kgaming.alienspidermod'
